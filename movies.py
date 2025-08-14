@@ -38,7 +38,7 @@ def add_movie():
 
     for title in movies:
         if movie.lower() == title.lower():
-            print(f"\033[92mMovie {movie} already exist!\033[0m")
+            print(f"\033[92mThe Movie {movie} already exist!\033[0m")
             found = True
             break
 
