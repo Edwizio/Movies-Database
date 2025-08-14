@@ -100,7 +100,7 @@ def update_movies():
         if movie.lower() == title.lower():
             try:
                 found = True
-                rating = float(input("\033[95mEnter new movie rating: \033[0m"))
+                rating = float(input("\033[95mEnter the new movie rating: \033[0m"))
 
                 # Updating the rating in the JSON Database
                 movies_storage.update_movie(title, rating)
